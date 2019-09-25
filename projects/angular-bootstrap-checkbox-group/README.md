@@ -71,7 +71,7 @@ which Bootstrap 4.3.1 was installed.
 ## Attribute Definition Table
 Attributes for `<checkbox-group></checkbox-group>` element:
 | Attribute                | Decorator | Type                                                    | Optional | Default Value         |
-| ----------------         | --------- | ------------------------------------------------------- | -------- | --------------------  |
+| ------------------------ | --------- | ------------------------------------------------------- | -------- | --------------------- |
 | disabled                 | Input     | boolean                                                 | True     | false                 |
 | values                   | Input     | Array<string \| number>                                 | False    | undefined             |
 | valuesChange             | Output    | EventEmitter<Array<string \| number>>                   | True     | EventEmitter instance |
