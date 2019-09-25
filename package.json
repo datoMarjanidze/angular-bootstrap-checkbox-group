@@ -1,6 +1,6 @@
 {
   "name": "angular-bootstrap-checkbox-group",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Dato Marjanidze <datomarjanidze10@gmail.com",
   "description": "Simple checkbox group for Angular & Bootstrap app.",
   "repository": {
