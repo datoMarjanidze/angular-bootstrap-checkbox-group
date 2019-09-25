@@ -69,7 +69,7 @@ This library is using Angular 8.2 and tested on the host Angular app in
 which Bootstrap 4.3.1 was installed.
 
 ## Attribute Definition Table
-Attributes for **<checkbox-group></checkbox-group>** element:
+Attributes for `<checkbox-group></checkbox-group>` element:
 | Attribute                | Decorator | Type                                                    | Optional | Default Value         |
 | ----------------         | --------- | ------------------------------------------------------- | -------- | --------------------  |
 | disabled                 | Input     | boolean                                                 | True     | false                 |
