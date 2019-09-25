@@ -15,6 +15,20 @@ npm i angular-bootstrap-checkbox-group
 
 ## Example
 ![](https://raw.githubusercontent.com/datoMarjanidze/angular-bootstrap-checkbox-group/master/images/demo.gif)
+
+You should have installed Bootstrap in your app and then in your
+module's metadata, include `AngularBootstrapCheckboxGroupModule` in the
+`imports` array.
+```javascript
+import { NgModule } from '@angular/core';
+import { AngularBootstrapCheckboxGroupModule } from 'angular-bootstrap-checkbox-group';
+
+@NgModule({
+  imports: [
+    AngularBootstrapCheckboxGroupModule
+  ]
+})
+```
 ```HTML
 <!-- some.component.html -->
 
