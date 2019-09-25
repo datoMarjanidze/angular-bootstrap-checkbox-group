@@ -1,0 +1,20 @@
+{
+  "name": "angular-bootstrap-checkbox-group",
+  "version": "0.0.0",
+  "author": "Dato Marjanidze <datomarjanidze10@gmail.com",
+  "description": "Simple checkbox group for Angular & Bootstrap app.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datoMarjanidze/angular-bootstrap-checkbox-group"
+  },
+  "keywords": [
+    "checkbox group",
+    "Angular checkbox group",
+    "Bootstrap checkbox group"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0"
+  }
+}

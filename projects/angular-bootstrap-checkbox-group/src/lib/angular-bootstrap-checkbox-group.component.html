@@ -1,0 +1,28 @@
+<div class="custom-control custom-checkbox">
+  <input
+    class="custom-control-input"
+    type="checkbox"
+    [id]="optionAllUuid"
+    [disabled]="disabled"
+    [(ngModel)]="allOptionChecked"
+    (ngModelChange)="handleOptionAll();"
+  />
+  <label class="custom-control-label" [for]="optionAllUuid">All</label>
+</div>
+
+<ng-container *ngIf="values && processedOptions">
+  <ng-container *ngFor="let processedOptionTuple of processedOptions; index as processedOptionTupleIndex">
+    <div class="custom-control custom-checkbox">
+      <input
+        class="custom-control-input"
+        type="checkbox"
+        [id]="processOptionsUuids[processedOptionTupleIndex]"
+        [disabled]="disabled"
+        [checked]="values.indexOf(processedOptionTuple[0]) > -1"
+        (change)="handleSelection(processedOptionTuple[0]);"
+      />
+      <label *ngIf="!titleCaseOptions" class="custom-control-label" [for]="processOptionsUuids[processedOptionTupleIndex]">{{ processedOptionTuple[1] }}</label>
+      <label *ngIf="titleCaseOptions" class="custom-control-label" [for]="processOptionsUuids[processedOptionTupleIndex]">{{ processedOptionTuple[1] | titlecase }}</label>
+    </div>
+  </ng-container>  
+</ng-container>
