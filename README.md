@@ -72,12 +72,12 @@ which Bootstrap 4.3.1 was installed.
 Attributes for **<checkbox-group></checkbox-group>** element:
 | Attribute                | Decorator | Type                                                   | Optional | Default Value         |
 | ----------------         | --------- | ------------------------------------------------------ | -------- | --------------------  |
-| disabled                 | Input     | boolean                                                | True     | false
-| values                   | Input     | Array<string \| number>                                | False    | undefined
+| disabled                 | Input     | boolean                                                | True     | false                 |
+| values                   | Input     | Array<string \| number>                                | False    | undefined             |
 | valuesChange             | Output    | EventEmitter<Array<string \| number>>                  | True     | EventEmitter instance |
 | options                  | Input     | Array<string \| number> \|
                                          Array<[string \| number, string \| number]> \|
-                                         { [key: string]: string \| number }                    | False    | undefined                  
-| titleCaseOptions         | Input     | boolean                                                | True     | false
+                                         { [key: string]: string \| number }                    | False    | undefined             |     
+| titleCaseOptions         | Input     | boolean                                                | True     | false                 |
 | allState                 | Output    | EventEmitter<boolean>                                  | True     | EventEmitter instance |
 | getClickedOptionKeyState | Output    | EventEmitter<{ key: string \| number, state: boolean }>| True     | EventEmitter instance |
